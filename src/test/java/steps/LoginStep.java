@@ -12,12 +12,12 @@ public class LoginStep implements En {
     {
         loginPage = new LoginPage();
     }
+
     @Given("input username {string}")
     public void inputUsername(String username)
     {
         loginPage.inputUsername(username);
     }
-
 
     @Given("input password {string}")
     public void inputPassword(String password)

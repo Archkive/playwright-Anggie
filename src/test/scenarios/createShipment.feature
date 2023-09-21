@@ -36,7 +36,7 @@ Feature: Input data into create order shipment in sales section
     Given click save button3
 
    @MasterDataBusinessPartner
-   Scenario: Input data in bisnisPartnet
+   Scenario: Input data in bisnisPartner
      Given input username "anggie.rinovka"
      Given input password "anggie.rinovka"
      Then login with username and password that filled

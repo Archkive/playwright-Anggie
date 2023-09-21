@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         glue = "steps",
-        tags = "@MasterDataProduct",
+        tags = "@MasterDataBusinessPartner",
         features = "src/test/scenarios/createShipment.feature"
 )
 public class CreateShipment {
